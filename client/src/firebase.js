@@ -1,14 +1,16 @@
 
-import { initializeApp } from 'firebase/app';
+
+// Import the functions you need from the SDKs you need
+import { initializeApp } from "firebase/app";
 
 const firebaseConfig = {
-  apiKey: import.meta.env.VITE_FIREBASE_API_KEY,
-  authDomain: 'mern-estate.firebaseapp.com',
-  projectId: 'mern-estate',
-  storageBucket: 'mern-estate.appspot.com',
-  messagingSenderId: '1078482850952',
-  appId: '1:1078482850952:web:28f19139ab77246602fb3d',
+  apiKey: "AIzaSyDyH3I58NpxUP1-ICXHql6ozTinpkkH2ec",
+  authDomain: "react-project-4dd40.firebaseapp.com",
+  projectId: "react-project-4dd40",
+  storageBucket: "react-project-4dd40.appspot.com",
+  messagingSenderId: "637473984981",
+  appId: "1:637473984981:web:302e1a4ff3f57bcce62d5c"
 };
 
-
-export const app = initializeApp(firebaseConfig);
+// Initialize Firebase
+ export const app = initializeApp(firebaseConfig);

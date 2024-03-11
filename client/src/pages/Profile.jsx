@@ -29,7 +29,7 @@ export default function Profile() {
   const [showListingsError, setShowListingsError] = useState(false);
   const [userListings, setUserListings] = useState([]);
   const dispatch = useDispatch();
-
+//  دا بتاع الفايربيز للتخرين الصور 
   // firebase storage
   // allow read;
   // allow write: if
